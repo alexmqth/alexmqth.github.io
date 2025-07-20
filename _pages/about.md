@@ -25,7 +25,7 @@ Publications
   <img src="../images/BIBM-2025.png" alt="" width="30%" style="margin-right: 30px;"/>
     <div style="line-height: 1;">
         <p><strong>Interpretable Multi-View Fusion Network for Alzheimer's Disease Diagnosis with Large-scale Pre-trained Vision-Language Model</strong></p>
-        <p><strong>Qiang Ma</strong>, Jinghao Xu, Tengfei Li, Xin Yuan, Xiaofeng Zhu, <a href="https://scholar.google.com/citations?user=BWGQt3YAAAAJ&hl=en">Xiaoshuang Shi</a></p>
+        <p><strong>Qiang Ma</strong>, Jinghao Xu, Tengfei Li, Xin Yuan, <a href="https://scholar.google.com/citations?user=-bk1CrcAAAAJ&hl=en">Xiaofeng Zhu</a>, <a href="https://scholar.google.com/citations?user=BWGQt3YAAAAJ&hl=en">Xiaoshuang Shi</a></p>
         <p>IEEE International Conference on Bioinformatics and Biomedicine (BIBM), 2025.</p>
         <p>[<a href="https://arxiv.org/pdf/2503.19307">Paper</a>] [<a href="https://github.com/alexmqth">Code</a>]</p>
     </div>
