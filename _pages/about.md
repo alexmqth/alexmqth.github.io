@@ -9,15 +9,18 @@ redirect_from:
 
 About me
 ======
+------
 I am a second-year M.S. candidate in Computer Science at the [University of Electronic Science and Technology of China](https://www.uestc.edu.cn/) (UESTC), supervised by Professor [Xiaoshuang Shi](https://scholar.google.com/citations?user=BWGQt3YAAAAJ&hl=en). ​I hold a B.S. in Computer Science from [Harbin Engineering University](http://www.hrbeu.edu.cn/) (HEU), developing​ strong ​programming​ and ​analytical skills for complex engineering problem-solving. My research ​centers on Multimodal Learning​ and ​Medical Image Analysis.
 
 News
 ======
+------
 - *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
 - *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
 
 Publications
 ======
+------
 <div style="display: flex; align-items: center; margin-bottom: 30px;">
   <!-- <video controls autoplay width="30%" style="margin-right: 30px;">
     <source src="../images/infnerf.mp4" type="video/mp4">
@@ -33,6 +36,7 @@ Publications
 
 Interships
 ======
+------
 - *2024.07 - 2025.07*, [Medical Dig Data Center, Sichuan University](https://www.wchscu.cn/dsj/index.html), China.
 
 For more info
