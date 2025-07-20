@@ -19,20 +19,20 @@ News
 Publications
 ======
 <div class="publication_div">
-  <img src="../images/InstructHumans-teaser.gif" alt="InstructHumans Teaser" width="30%" >
+  <img src="../images/BIBM-2025.png" alt="LaCA" width="30%" >
   <div>
     <p><strong>
       Interpretable Multi-View Fusion Network for Alzheimer's Disease Diagnosis with Large-scale Pre-trained Vision-Language Model
     </strong></p>
     <p>
-      <strong>Qiang Ma</strong>, Jinghao Xu, <a href="https://scholar.google.com/citations?user=BWGQt3YAAAAJ&hl=en">Xiaoshuang Shi</a>, Angela Yao
+      <strong>Qiang Ma</strong>, Jinghao Xu, Tengfei Li, Xin Yuan, Xiaofeng Zhu, <a href="https://scholar.google.com/citations?user=BWGQt3YAAAAJ&hl=en">Xiaoshuang Shi</a>, Angela Yao
     </p>
     <p>
       <a href="https://arxiv.org/abs/2404.04037">BIBM</a>, 2025.
     </p>
     <p>
-      <a href="https://jyzhu.top/instruct-humans/data/InstructHumans.pdf">Paper</a>
-       /
+<!--       <a href="https://jyzhu.top/instruct-humans/data/InstructHumans.pdf">Paper</a> -->
+<!--        / -->
        <a href="https://github.com/MakimaSasha/">Code</a>
     </p>
   </div>
