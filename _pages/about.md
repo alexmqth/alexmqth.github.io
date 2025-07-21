@@ -27,7 +27,7 @@ Publications
         <p><strong>Qiang Ma</strong>, Jinghao Xu, Tengfei Li, Xin Yuan, <a href="https://scholar.google.com/citations?user=-bk1CrcAAAAJ&hl=en">Xiaofeng Zhu</a>, <a href="https://scholar.google.com/citations?user=BWGQt3YAAAAJ&hl=en">Xiaoshuang Shi</a></p>
       <p> Under Review </p>
 <!--         <p>IEEE International Conference on Bioinformatics and Biomedicine (BIBM), 2025.</p> -->
-        <p>[<a href="https://arxiv.org/pdf/2503.19307">Paper</a>] [<a href="https://github.com/alexmqth">Code</a>]</p>
+<!--         <p>[<a href="https://arxiv.org/pdf/2503.19307">Paper</a>] [<a href="https://github.com/alexmqth">Code</a>]</p> -->
     </div>
 </div>
 
