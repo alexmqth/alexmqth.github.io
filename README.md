@@ -3,7 +3,7 @@
 Personal Web: https://alexmqth.github.io/
 
 <!--
-**jinyeying/jinyeying** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+**alexmqth/alexmqth** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
 Here are some ideas to get you started:
 
