@@ -7,8 +7,6 @@ redirect_from:
   - /about.html
 ---
 
-# About me
-------
 I am a second-year M.S. candidate in Computer Science at the [University of Electronic Science and Technology of China](https://www.uestc.edu.cn/) (UESTC), supervised by Professor [Xiaoshuang Shi](https://scholar.google.com/citations?user=BWGQt3YAAAAJ&hl=en). ​I hold a B.S. in Computer Science from [Harbin Engineering University](http://www.hrbeu.edu.cn/) (HEU), developing​ strong ​programming​ and ​analytical skills for complex engineering problem-solving. My research ​centers on Multimodal Learning​ and ​Medical Image Analysis.
 
 # News
