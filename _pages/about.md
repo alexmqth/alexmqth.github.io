@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-I am a second-year M.S. candidate in Computer Science at the <img src="/files/UESTC.png" alt="NUS" width="20" height="20"> [University of Electronic Science and Technology of China (UESTC)](https://www.uestc.edu.cn/), supervised by Professor [Xiaoshuang Shi](https://scholar.google.com/citations?user=BWGQt3YAAAAJ&hl=en). ​I hold a B.S. in Computer Science from <img src="/files/HEU.png" alt="NUS" width="20" height="20"> [Harbin Engineering University (HEU)](http://www.hrbeu.edu.cn/), developing​ strong ​programming​ and ​analytical skills for complex engineering problem-solving. My research ​centers on Multimodal Learning​ and ​Medical Image Analysis.
+I am a second-year M.S. candidate in Computer Science at the <img src="/files/UESTC.png" alt="UESTC" width="20" height="20"> [University of Electronic Science and Technology of China (UESTC)](https://www.uestc.edu.cn/), supervised by Professor [Xiaoshuang Shi](https://scholar.google.com/citations?user=BWGQt3YAAAAJ&hl=en). ​I hold a B.S. in Computer Science from <img src="/files/HEU.png" alt="HEU" width="20" height="20"> [Harbin Engineering University (HEU)](http://www.hrbeu.edu.cn/), developing​ strong ​programming​ and ​analytical skills for complex engineering problem-solving. My research ​centers on Multimodal Learning​ and ​Medical Image Analysis.
 
 # News
 ------
@@ -32,9 +32,9 @@ I am a second-year M.S. candidate in Computer Science at the <img src="/files/UE
 # Educations
 ------
 - 09.2023-Present: M.S. (Computer Science), <img src="/files/UESTC.png" alt="UESTC" width="20" height="20"> UESTC, China (GPA: 3.55/4.00)
-- 09.2018-06.2022: B.Eng (Computer Science), <img src="/files/HEU.png" alt="UESTC" width="20" height="20"> HEU, China (GPA: 3.18/4.00)
+- 09.2018-06.2022: B.Eng (Computer Science), <img src="/files/HEU.png" alt="HEU" width="20" height="20"> HEU, China (GPA: 3.18/4.00)
 
 # Interships
 ------
-- *2024.07 - 2025.07*, [Medical Dig Data Center, Sichuan University](https://www.wchscu.cn/dsj/index.html), China.
+- *2024.07 - 2025.07*, <img src="/files/huaxi.ico" alt="huaxi" width="20" height="20"> [Medical Dig Data Center, Sichuan University](https://www.wchscu.cn/dsj/index.html), China.
 
