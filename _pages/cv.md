@@ -9,6 +9,9 @@ redirect_from:
 
 {% include base_path %}
 
+Please see my latest [CV](https://github.com/alexmqth/alexmqth.github.io/files/cv.pdf).
+
+<!--
 Education
 ======
 * Ph.D in Version Control Theory, GitHub University, 2018 (expected)
@@ -62,3 +65,4 @@ Teaching
 Service and leadership
 ======
 * Currently signed in to 43 different slack teams
+-->
