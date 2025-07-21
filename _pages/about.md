@@ -12,7 +12,6 @@ I am a second-year M.S. candidate in Computer Science at the <img src="/files/UE
 # News
 ------
 - *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
 
 # Publications
 ------
@@ -30,10 +29,12 @@ I am a second-year M.S. candidate in Computer Science at the <img src="/files/UE
     </div>
 </div>
 
+# Educations
+------
+- Sep 2023 - (now): M.S. (Computer Science), <img src="/files/UESTC.png" alt="UESTC" width="20" height="20"> UESTC, China (GPA: 3.55/4.00)
+- Sep 2018 - Jun 2022: B.Eng (Computer Science), <img src="/files/HEU.png" alt="UESTC" width="20" height="20"> HEU, China (GPA: 3.18/4.00)
+
 # Interships
 ------
 - *2024.07 - 2025.07*, [Medical Dig Data Center, Sichuan University](https://www.wchscu.cn/dsj/index.html), China.
 
-For more info
-------
-More info about configuring Academic Pages can be found
