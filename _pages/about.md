@@ -36,5 +36,5 @@ I am a second-year M.S. candidate in Computer Science at the <img src="/files/UE
 
 # Interships
 ------
-- *07.2024 - 07.2024*: <img src="/files/huaxi.ico" alt="huaxi" width="20" height="20"> [Medical Dig Data Center, Sichuan University](https://www.wchscu.cn/dsj/index.html), China.
+- *07.2024 - 07.2024*: <img src="/files/huaxi.ico" alt="huaxi" width="20" height="20"> [West China Biomedical Big Data Center, West China Hospital, Sichuan University](https://www.wchscu.cn/dsj/index.html), China.
 
