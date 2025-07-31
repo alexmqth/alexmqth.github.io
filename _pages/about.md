@@ -43,5 +43,5 @@ I am a second-year M.S. candidate in Computer Science at the <img src="/files/UE
 # One more thing
 ------
 ​Adventure enthusiast (hiking, camping, travel photography), hooked on the immersive thrill of drone FPV flying. Also a powerlifting enthusiast – find my competition records on [Open Powerlifting
-](https://www.openpowerlifting.org/m/chnpl/2405#qiangma). Forged "superhuman" resilience (both physical & mental).​
+](https://www.openpowerlifting.org/u/qiangma). Forged "superhuman" resilience (both physical & mental).​
 
