@@ -12,7 +12,8 @@ I am a second-year M.S. candidate in Computer Science at the <img src="/files/UE
 
 # News
 ------
-- 2025.10: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+<!--   - 2025.10: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. -->
+- Waiting for good news🙂
 
 # Publications
 ------
@@ -38,4 +39,9 @@ I am a second-year M.S. candidate in Computer Science at the <img src="/files/UE
 # Interships
 ------
 - 07.2024 - 07.2024: <img src="/files/huaxi.ico" alt="huaxi" width="20" height="20"> [West China Biomedical Big Data Center, West China Hospital, Sichuan University](https://www.wchscu.cn/dsj/index.html), China.
+
+# One more thing
+------
+​Adventure enthusiast (hiking, camping, travel photography), hooked on the immersive thrill of drone FPV flying. Also a competitive powerlifter – find my meet results on [Open Powerlifting
+](https://www.openpowerlifting.org/m/chnpl/2405#qiangma). Forged "superhuman" resilience (both physical & mental).​
 
