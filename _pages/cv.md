@@ -9,7 +9,7 @@ redirect_from:
 
 {% include base_path %}
 
-Please see my latest [CV](https://github.com/alexmqth/alexmqth.github.io/files/cv.pdf).
+Please see my latest [CV](https://alexmqth.github.io/files/cv.pdf).
 
 <!--
 Education
