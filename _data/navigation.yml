@@ -47,8 +47,8 @@ main:
   - title: "Work"
     url: "/#-internship"
 
-  - title: "CV"
-    url: /cv/
+  # - title: "CV"
+  #   url: /cv/
 
   # - title: "Awards"
   #   url: "/#-honors-and-awards"
