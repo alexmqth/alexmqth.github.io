@@ -205,21 +205,36 @@ nav a:last-child { border-color: #8c5d88; border-radius: 0; color: #f0b6db; }
 .visitor-connected .visitor-status::before { background: #76d9e4; box-shadow: 0 0 calc(.5 * var(--ui-unit)) #76d9e455; }
 .visitor-display { position: relative; overflow: hidden; aspect-ratio: 960 / 432; background: #0c1423; border: 1px solid #24394d; }
 .visitor-world { display: block; width: 100%; height: 100%; object-fit: contain; opacity: .8; }
-.visitor-marker { position: absolute; width: calc(.625 * var(--ui-unit)); height: calc(.625 * var(--ui-unit)); transform: translate(-50%,-50%); border: 1px solid #e6fcff; background: #79eff0; box-shadow: 0 0 calc(.8 * var(--ui-unit)) #6bdcefa6; }
+.visitor-marker { position: absolute; z-index: 2; display: block; width: calc(1 * var(--ui-unit)); height: calc(1 * var(--ui-unit)); transform: translate(-50%,-50%); pointer-events: none; }
 .visitor-marker[hidden] { display: none; }
-.visitor-marker::before, .visitor-marker::after { content: ""; position: absolute; inset: calc(-.5 * var(--ui-unit)); border: 1px solid #8de8f291; }
-.visitor-marker::after { inset: calc(-1 * var(--ui-unit)); border-color: #8de8f233; animation: visitor-pulse 3s ease-out infinite; }
-@keyframes visitor-pulse { from { transform: scale(.65); opacity: .85; } to { transform: scale(1.65); opacity: 0; } }
-.visitor-motion-paused .visitor-marker::after { animation-play-state: paused; }
-@media(prefers-reduced-motion:reduce) { .visitor-marker::after { animation: none; } }
+.visitor-core { position: absolute; inset: 22%; border: 1px solid #fff; background: #baffff; box-shadow: 0 0 calc(.5 * var(--ui-unit)) #69faff, 0 0 calc(1.5 * var(--ui-unit)) #55dfefb0; animation: visitor-beacon 2.2s ease-in-out infinite; }
+.visitor-reticle { position: absolute; inset: -20%; border: 1px solid #7be3ecb0; transform: rotate(45deg); background: #7be3ec0c; }
+.visitor-marker::before, .visitor-marker::after { content: ""; position: absolute; inset: calc(-.65 * var(--ui-unit)); border: 1px solid #74e9ef; border-radius: 50%; animation: visitor-pulse 3.2s ease-out infinite; }
+.visitor-marker::after { border-color: #bc96ef; animation-delay: -1.6s; }
+@keyframes visitor-pulse { from { transform: scale(.45); opacity: .8; } to { transform: scale(2.25); opacity: 0; } }
+@keyframes visitor-beacon { 0%,100% { opacity: 1; transform: scale(1); } 48% { opacity: .4; transform: scale(.75); } 62% { opacity: 1; transform: scale(1); } }
+.visitor-callout { position: absolute; left: calc(100% + .75 * var(--ui-unit)); bottom: calc(100% + .5 * var(--ui-unit)); min-width: calc(7 * var(--ui-unit)); max-width: calc(12 * var(--ui-unit)); padding: calc(.5 * var(--ui-unit)) calc(.75 * var(--ui-unit)); background: #0b1828ed; border: 1px solid #4b8a9f; border-left: 2px solid #93eff1; box-shadow: 0 0 calc(1.5 * var(--ui-unit)) #51d5ea14; font-family: Consolas, monospace; overflow-wrap: anywhere; }
+.visitor-callout::after { content: ""; position: absolute; width: calc(1.25 * var(--ui-unit)); height: 1px; left: calc(-1 * var(--ui-unit)); bottom: calc(-.35 * var(--ui-unit)); background: #78dae2; transform: rotate(-40deg); }
+.visitor-callout > span { display: block; color: #6fabbf; font-size: calc(.5 * var(--ui-unit)); letter-spacing: .13em; white-space: nowrap; }
+.visitor-callout strong { display: block; margin-top: calc(.3 * var(--ui-unit)); color: #c9f5f6; font-size: calc(.75 * var(--ui-unit)); font-weight: 400; line-height: 1.4; }
+.visitor-marker-left .visitor-callout { left: auto; right: calc(100% + .75 * var(--ui-unit)); }
+.visitor-marker-left .visitor-callout::after { left: auto; right: calc(-1 * var(--ui-unit)); transform: rotate(40deg); }
+.visitor-marker-low .visitor-callout { bottom: auto; top: calc(100% + .5 * var(--ui-unit)); }
+.visitor-marker-low .visitor-callout::after { display: none; }
+.visitor-motion-paused .visitor-marker::before, .visitor-motion-paused .visitor-marker::after, .visitor-motion-paused .visitor-core { animation-play-state: paused; }
+@media(prefers-reduced-motion:reduce) { .visitor-marker::before, .visitor-marker::after, .visitor-core { animation: none; } }
 .visitor-scan { position: absolute; inset: 0; pointer-events: none; background: repeating-linear-gradient(0deg,transparent 0,transparent 3px,#7baac406 3px,#7baac406 4px); }
-.visitor-caption { display: flex; align-items: flex-end; justify-content: space-between; gap: calc(1 * var(--ui-unit)); margin-top: calc(.875 * var(--ui-unit)); color: #8595ae; font: calc(.625 * var(--ui-unit))/1.7 Consolas, monospace; }
-.visitor-location { display: flex; flex-direction: column; gap: calc(.25 * var(--ui-unit)); }
-.visitor-location > span { color: #9d8bb3; letter-spacing: .1em; font-size: calc(.5625 * var(--ui-unit)); }
-.visitor-location strong { color: #b8d9e5; font-size: calc(.8125 * var(--ui-unit)); font-weight: 400; }
+.visitor-caption { display: grid; grid-template-columns: 1.1fr 1.35fr .7fr; gap: calc(2 * var(--ui-unit)); margin: calc(1.5 * var(--ui-unit)) 0 0; padding-top: calc(1.25 * var(--ui-unit)); border-top: 1px solid #263d50; font-family: Consolas, monospace; }
+.visitor-detail { min-width: 0; }
+.visitor-detail dt { display: block; color: #8aa9bf; letter-spacing: .13em; text-transform: uppercase; font-size: calc(.5625 * var(--ui-unit)); line-height: 1.5; }
+.visitor-detail dd { display: block; margin: calc(.875 * var(--ui-unit)) 0 0; color: #c6e5ec; font-size: calc(.875 * var(--ui-unit)); line-height: 1.5; overflow-wrap: anywhere; }
+.visitor-source dd { color: #b0a0c4; }
 .visitor-notice { color: #a1acc1; font-size: calc(.75 * var(--ui-unit)); margin: calc(.75 * var(--ui-unit)) 0 0; }
 @media(max-width:680px) {
   .visitor-section { padding: calc(1 * var(--ui-unit)); margin-top: calc(2.5 * var(--ui-unit)); }
   .visitor-heading { align-items: flex-start; flex-direction: column; gap: calc(.625 * var(--ui-unit)); }
-  .visitor-caption { align-items: flex-start; flex-direction: column; gap: calc(.625 * var(--ui-unit)); }
+  .visitor-caption { grid-template-columns: 1fr 1fr; gap: calc(1.25 * var(--ui-unit)); }
+  .visitor-source { grid-column: 1/-1; }
+  .visitor-detail dd { margin-top: calc(.75 * var(--ui-unit)); font-size: calc(.75 * var(--ui-unit)); }
+  .visitor-callout { display: none; }
 }

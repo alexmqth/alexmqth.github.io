@@ -10,7 +10,7 @@
   <meta property="og:description" content="Multimodal learning, efficient vision-language models, and medical AI at HKU.">
   <meta property="og:image" content="{{ '/images/profile-night-city.webp' | absolute_url }}">
   <meta name="theme-color" content="#0c0d1a">
-  <link rel="stylesheet" href="{{ '/assets/css/quiet.css' | relative_url }}">
+  <link rel="stylesheet" href="{{ '/assets/css/quiet.css' | relative_url }}?v={{ site.github.build_revision | default: '20261016-visitor-trace' }}">
 </head>
 <body>
   <div class="code-backdrop" aria-hidden="true"><canvas id="code-canvas"></canvas></div>
@@ -27,7 +27,7 @@
   </header>
   <main id="main" class="site-main">{{ content }}</main>
   <footer class="site-footer"><span>Qiang Ma · The University of Hong Kong</span><a href="mailto:alexmqth@gmail.com">Get in touch ↗</a></footer>
-  <script src="{{ '/assets/js/pixel-city.js' | relative_url }}" defer></script>
-  <script src="{{ '/assets/js/visitor-map.js' | relative_url }}" defer></script>
+  <script src="{{ '/assets/js/pixel-city.js' | relative_url }}?v={{ site.github.build_revision | default: '20261016-visitor-trace' }}" defer></script>
+  <script src="{{ '/assets/js/visitor-map.js' | relative_url }}?v={{ site.github.build_revision | default: '20261016-visitor-trace' }}" defer></script>
 </body>
 </html>
