@@ -1,0 +1,4 @@
+visitor-world.svg is a locally rendered pixel map using Natural Earth 1:110m land polygons.
+Source: https://github.com/nvkelso/natural-earth-vector/blob/master/geojson/ne_110m_land.geojson
+Natural Earth data is in the public domain: https://www.naturalearthdata.com/about/terms-of-use/
+The decorative map contains no visitor markers or fabricated statistics.

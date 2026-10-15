@@ -194,3 +194,32 @@ nav a:last-child { border-color: #8c5d88; border-radius: 0; color: #f0b6db; }
   #research .entry-description { margin-left: calc(-3.125 * var(--ui-unit, 1rem)); }
 }
 @media(max-width:370px) { .profile { padding: calc(0.8125 * var(--ui-unit, 1rem)); grid-template-columns: calc(4.375 * var(--ui-unit, 1rem)) 1fr; gap: 0 calc(0.75 * var(--ui-unit, 1rem)); } .portrait { width: calc(4.375 * var(--ui-unit, 1rem)); height: calc(6 * var(--ui-unit, 1rem)); } .profile-name { font-size: calc(1.125 * var(--ui-unit, 1rem)); } .profile-links { font-size: calc(0.6875 * var(--ui-unit, 1rem)); } .wordmark { font-size: calc(1.25 * var(--ui-unit, 1rem)); } }
+
+/* A quiet terminal-style panel at the end of the homepage. */
+.visitor-section { max-width: calc(52 * var(--ui-unit)); margin: calc(4 * var(--ui-unit)) auto 0; padding: calc(1.5 * var(--ui-unit)); background: #0c1321f5; border: 1px solid #33465e; border-top: 2px solid #659fae; box-shadow: 0 0 calc(2.5 * var(--ui-unit)) #55b8c507; }
+.visitor-heading { display: flex; align-items: center; justify-content: space-between; gap: calc(1 * var(--ui-unit)); margin-bottom: calc(1.25 * var(--ui-unit)); }
+.visitor-label { margin: 0 0 calc(.375 * var(--ui-unit)); font: calc(.5625 * var(--ui-unit))/1.5 Consolas, monospace; letter-spacing: .18em; color: #79a4bc; }
+.visitor-heading h2 { margin: 0; font-size: calc(1.375 * var(--ui-unit)); letter-spacing: -.025em; }
+.visitor-status { display: inline-flex; align-items: center; gap: calc(.5 * var(--ui-unit)); font: calc(.625 * var(--ui-unit))/1.6 Consolas, monospace; color: #939db7; }
+.visitor-status::before { content: ""; width: calc(.3125 * var(--ui-unit)); height: calc(.3125 * var(--ui-unit)); background: #8290ac; box-shadow: 0 0 calc(.5 * var(--ui-unit)) #8290ac33; }
+.visitor-connected .visitor-status::before { background: #76d9e4; box-shadow: 0 0 calc(.5 * var(--ui-unit)) #76d9e455; }
+.visitor-display { position: relative; overflow: hidden; aspect-ratio: 960 / 432; background: #0c1423; border: 1px solid #24394d; }
+.visitor-world { display: block; width: 100%; height: 100%; object-fit: contain; opacity: .8; }
+.visitor-marker { position: absolute; width: calc(.625 * var(--ui-unit)); height: calc(.625 * var(--ui-unit)); transform: translate(-50%,-50%); border: 1px solid #e6fcff; background: #79eff0; box-shadow: 0 0 calc(.8 * var(--ui-unit)) #6bdcefa6; }
+.visitor-marker[hidden] { display: none; }
+.visitor-marker::before, .visitor-marker::after { content: ""; position: absolute; inset: calc(-.5 * var(--ui-unit)); border: 1px solid #8de8f291; }
+.visitor-marker::after { inset: calc(-1 * var(--ui-unit)); border-color: #8de8f233; animation: visitor-pulse 3s ease-out infinite; }
+@keyframes visitor-pulse { from { transform: scale(.65); opacity: .85; } to { transform: scale(1.65); opacity: 0; } }
+.visitor-motion-paused .visitor-marker::after { animation-play-state: paused; }
+@media(prefers-reduced-motion:reduce) { .visitor-marker::after { animation: none; } }
+.visitor-scan { position: absolute; inset: 0; pointer-events: none; background: repeating-linear-gradient(0deg,transparent 0,transparent 3px,#7baac406 3px,#7baac406 4px); }
+.visitor-caption { display: flex; align-items: flex-end; justify-content: space-between; gap: calc(1 * var(--ui-unit)); margin-top: calc(.875 * var(--ui-unit)); color: #8595ae; font: calc(.625 * var(--ui-unit))/1.7 Consolas, monospace; }
+.visitor-location { display: flex; flex-direction: column; gap: calc(.25 * var(--ui-unit)); }
+.visitor-location > span { color: #9d8bb3; letter-spacing: .1em; font-size: calc(.5625 * var(--ui-unit)); }
+.visitor-location strong { color: #b8d9e5; font-size: calc(.8125 * var(--ui-unit)); font-weight: 400; }
+.visitor-notice { color: #a1acc1; font-size: calc(.75 * var(--ui-unit)); margin: calc(.75 * var(--ui-unit)) 0 0; }
+@media(max-width:680px) {
+  .visitor-section { padding: calc(1 * var(--ui-unit)); margin-top: calc(2.5 * var(--ui-unit)); }
+  .visitor-heading { align-items: flex-start; flex-direction: column; gap: calc(.625 * var(--ui-unit)); }
+  .visitor-caption { align-items: flex-start; flex-direction: column; gap: calc(.625 * var(--ui-unit)); }
+}

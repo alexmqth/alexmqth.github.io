@@ -72,3 +72,20 @@ redirect_from:
     </section>
   </div>
 </div>
+
+<section class="visitor-section" aria-labelledby="visitor-title" data-visitor-map>
+  <div class="visitor-heading">
+    <div><p class="visitor-label">GLOBAL / VISITORS</p><h2 id="visitor-title">Visitor map</h2></div>
+    <span class="visitor-status" data-visitor-status>Current visit</span>
+  </div>
+  <div class="visitor-display">
+    <img class="visitor-world" src="{{ '/images/visitor-world.svg' | relative_url }}" alt="" width="960" height="432" loading="lazy">
+    <span class="visitor-marker" data-visitor-marker role="img" aria-label="Your approximate location" hidden><span></span></span>
+    <div class="visitor-scan" aria-hidden="true"></div>
+  </div>
+  <div class="visitor-caption">
+    <div class="visitor-location" aria-live="polite"><span>YOUR APPROXIMATE LOCATION</span><strong data-visitor-location>Waiting for location</strong></div>
+    <span data-visitor-caption>IP-based location · this visit</span>
+  </div>
+  <noscript><p class="visitor-notice">Enable JavaScript to see your approximate location on the map.</p></noscript>
+</section>
