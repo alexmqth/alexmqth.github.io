@@ -1,0 +1,10 @@
+Institutional marks used to identify Qiang Ma's education and research experience.
+
+hku.png: University of Hong Kong official website, retrieved 2026-10-15.
+https://www.hku.hk/etc.clientlibs/hkucms/clientlibs/clientlib-site/resources/icon-310x310.png
+
+uestc.png: Existing website asset /files/UESTC.png.
+heu.png: Existing website asset /files/HEU.png.
+wch.png: Converted from the existing website asset /files/huaxi.ico.
+
+Marks retain their original colors and proportions; no endorsement is implied.

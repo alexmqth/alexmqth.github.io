@@ -1,0 +1,74 @@
+---
+layout: quiet
+permalink: /
+title: Research & Biography
+redirect_from:
+  - /about/
+  - /about.html
+---
+<div class="profile-grid">
+  <aside class="profile" aria-label="Profile and contact">
+    <img class="portrait" src="{{ '/images/profile-night-city.webp' | relative_url }}" alt="Pixel-art motorcyclist overlooking a night city beneath a spiral galaxy" width="830" height="960">
+    <h1 class="profile-name">Qiang Ma</h1>
+    <p class="role">PhD Student · Computer Science<br>The University of Hong Kong</p>
+    <p class="location">Hong Kong</p>
+    <div class="profile-links">
+      <a href="mailto:alexmqth@gmail.com">Email ↗</a>
+      <a href="https://scholar.google.com/citations?user=zhxe46AAAAAJ">Google Scholar ↗</a>
+      <a href="https://github.com/alexmqth">GitHub ↗</a>
+    </div>
+    <a class="download-link" href="{{ '/files/cv.pdf' | relative_url }}">Academic CV <span aria-hidden="true">↓</span></a>
+  </aside>
+  <div class="main-content">
+    <section id="about" class="intro" aria-labelledby="about-title">
+      <h2 id="about-title">About me</h2>
+      <p>I am a PhD student in Computer Science at <a href="https://www.hku.hk/">The University of Hong Kong</a>, advised by <a href="https://scholar.google.com/citations?user=llXf3wUAAAAJ">Prof. Lequan Yu</a>.</p>
+      <p>My research focuses on <strong>multimodal learning and efficient vision-language models</strong>, with applications in medical AI. I study how models combine incomplete evidence, retain useful visual information, and reason efficiently.</p>
+      <p>Previously, I received my MS from UESTC, advised by <a href="https://scholar.google.com/citations?user=BWGQt3YAAAAJ">Prof. Xiaoshuang Shi</a>, and my BS from Harbin Engineering University. I also worked with <a href="https://scholar.google.com/citations?user=yOZ73ZwAAAAJ">Prof. Huan Song</a> at West China Hospital.</p>
+      <div class="topics" aria-label="Research interests"><span>Multimodal learning</span><span>Vision-language models</span><span>Efficient reasoning</span></div>
+    </section>
+    <section id="publications" class="content-section" aria-labelledby="publications-title">
+      <div class="section-heading"><h2 id="publications-title">Publications & manuscripts</h2><span class="section-note">* Co-first authors</span></div>
+      {% for paper in site.data.papers %}
+      <article class="paper">
+        <div class="paper-meta"><span class="paper-index" aria-hidden="true">0{{ forloop.index }}</span><span class="venue">{{ paper.venue }}</span><span>{{ paper.status }}</span></div>
+        <h3>{% if paper.url %}<a href="{{ paper.url }}">{{ paper.title }}</a>{% else %}{{ paper.title }}{% endif %}</h3>
+        <p class="authors">{{ paper.authors }}</p>
+        {% if paper.url %}<a class="paper-link" href="{{ paper.url }}">{{ paper.link_label }} <span aria-hidden="true">↗</span></a>{% endif %}
+      </article>
+      {% endfor %}
+    </section>
+    <section id="research" class="content-section" aria-labelledby="research-title">
+      <div class="section-heading"><h2 id="research-title">Research experience</h2></div>
+      <article class="experience-item">
+        <span class="institution-mark"><img src="{{ '/images/institutions/hku.png' | relative_url }}" alt="" width="32" height="32" loading="lazy"></span>
+        <div class="entry-heading"><h3>The University of Hong Kong</h3><span class="dates">09/2025 – 08/2026</span></div>
+        <p class="entry-role">Research Assistant · Advisor: Lequan Yu</p>
+        <p class="entry-description">Developed PRISM for efficient 3D medical vision-language classification. Spatio-anatomical evidence scoring and foveated token routing retain diagnostic regions while using only <strong>15.6%–18.8% of the original visual tokens</strong>, evaluated on bone tumor CT and cardiac MRI.</p>
+      </article>
+      <article class="experience-item">
+        <span class="institution-mark"><img src="{{ '/images/institutions/wch.png' | relative_url }}" alt="" width="32" height="32" loading="lazy"></span>
+        <div class="entry-heading"><h3>West China Hospital</h3><span class="dates">08/2024 – 08/2025</span></div>
+        <p class="entry-role">Research Intern · Biomedical Big Data Center · Advisor: Huan Song</p>
+        <p class="entry-description">Developed AURA for cross-center medical prediction with missing modalities at inference, using epistemic uncertainty for routing and calibration. Validated on <strong>five datasets across the US, China, and Korea</strong>.</p>
+      </article>
+    </section>
+    <section id="education" class="content-section education" aria-labelledby="education-title">
+      <div class="section-heading"><h2 id="education-title">Education</h2></div>
+      <article class="experience-item"><span class="institution-mark"><img src="{{ '/images/institutions/hku.png' | relative_url }}" alt="" width="32" height="32" loading="lazy"></span><div class="entry-heading"><h3>The University of Hong Kong</h3><span class="dates">09/2026 – 06/2030 (expected)</span></div><p class="entry-role">PhD in Computer Science · Advisor: Lequan Yu</p></article>
+      <article class="experience-item"><span class="institution-mark"><img src="{{ '/images/institutions/uestc.png' | relative_url }}" alt="" width="32" height="32" loading="lazy"></span><div class="entry-heading"><h3>University of Electronic Science and Technology of China</h3><span class="dates">09/2023 – 06/2026</span></div><p class="entry-role">MS in Computer Science · Advisor: Xiaoshuang Shi</p></article>
+      <article class="experience-item"><span class="institution-mark"><img src="{{ '/images/institutions/heu.png' | relative_url }}" alt="" width="32" height="32" loading="lazy"></span><div class="entry-heading"><h3>Harbin Engineering University</h3><span class="dates">09/2018 – 06/2022</span></div><p class="entry-role">BS in Computer Science</p></article>
+    </section>
+    <section id="service" class="content-section" aria-labelledby="service-title">
+      <div class="section-heading"><h2 id="service-title">Teaching & service</h2></div>
+      <div class="service-grid">
+        <div><h3>Teaching Assistant</h3><p><a href="https://www.cs.hku.hk/programmes/course-offered?infile=2026/comp2501.html">COMP2501 · Introduction to Data Science</a><br>The University of Hong Kong</p></div>
+        <div><h3>Reviewer</h3><p>WACV 2027 · ISBI 2026<br>MICCAI FLARE Challenge 2026<br>Pattern Recognition</p></div>
+      </div>
+    </section>
+    <section class="content-section personal" aria-labelledby="beyond-title">
+      <div class="section-heading"><h2 id="beyond-title">Beyond research</h2></div>
+      <p>Outside research, I enjoy hiking, camping, travel photography, and flying FPV drones. I also train for powerlifting; my competition records are on <a href="https://www.openpowerlifting.org/u/qiangma">Open Powerlifting ↗</a>.</p>
+    </section>
+  </div>
+</div>

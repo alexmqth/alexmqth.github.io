@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ page.title | escape }} | Qiang Ma</title>
+  <meta name="description" content="Qiang Ma is a Computer Science PhD student at the University of Hong Kong, researching multimodal learning, efficient vision-language models, and medical AI.">
+  <link rel="canonical" href="{{ page.url | absolute_url }}">
+  <meta property="og:title" content="{{ page.title | escape }} | Qiang Ma">
+  <meta property="og:description" content="Multimodal learning, efficient vision-language models, and medical AI at HKU.">
+  <meta property="og:image" content="{{ '/images/profile-night-city.webp' | absolute_url }}">
+  <meta name="theme-color" content="#0c0d1a">
+  <link rel="stylesheet" href="{{ '/assets/css/quiet.css' | relative_url }}">
+</head>
+<body>
+  <div class="code-backdrop" aria-hidden="true"><canvas id="code-canvas"></canvas></div>
+  <div class="city-backdrop" aria-hidden="true"><canvas id="city-canvas"></canvas></div>
+  <button class="motion-toggle" type="button" aria-pressed="false" hidden>Pause animation</button>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="wordmark" href="{{ '/' | relative_url }}">Qiang Ma<span class="wordmark-dot">.</span></a>
+      <nav aria-label="Main navigation">
+        {% for item in site.data.navigation.main %}<a href="{{ item.url | relative_url }}">{{ item.title }}</a>{% endfor %}
+      </nav>
+    </div>
+  </header>
+  <main id="main" class="site-main">{{ content }}</main>
+  <footer class="site-footer"><span>Qiang Ma · The University of Hong Kong</span><a href="mailto:alexmqth@gmail.com">Get in touch ↗</a></footer>
+  <script src="{{ '/assets/js/pixel-city.js' | relative_url }}" defer></script>
+</body>
+</html>

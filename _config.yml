@@ -12,7 +12,7 @@ site_theme               : "default"
 title                    : "Qiang Ma"
 title_separator          : "-"
 name                     : &name "Qiang Ma"
-description              : &description ""
+description              : &description "Qiang Ma | Computer Science PhD student at HKU. Multimodal learning, efficient vision-language models, and medical AI."
 url                      : https://alexmqth.github.io # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io" or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "alexmqth/alexmqth.github.io"
@@ -22,11 +22,11 @@ repository               : "alexmqth/alexmqth.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "ohhhhhh.jpg"
+  avatar           : "profile-night-city.webp"
   name             : "Qiang Ma"
   pronouns         : # example: "she/her"  
-  bio              : "Second-year M.S. Student at University of Electronic Science and Technology of China"
-  location         : "Sichuan, China"
+  bio              : "Computer Science PhD Student at The University of Hong Kong"
+  location         : "Hong Kong"
   employer         : #"Red Brick University"
   uri              : # "https://github.com/alexmqth/alexmqth.github.io/images/cv.pdf" # URL
   email            : "alexmqth@gmail.com" 
@@ -161,6 +161,26 @@ include:
   - _pages
   - files
 exclude:
+  # Hide unused Academic Pages example content from the published site.
+  - _posts
+  - _publications
+  - _teaching
+  - _talks
+  - _portfolio
+  - _pages/archive-layout-with-content.md
+  - _pages/category-archive.html
+  - _pages/collection-archive.html
+  - _pages/cv-json.md
+  - _pages/markdown.md
+  - _pages/non-menu-page.md
+  - _pages/page-archive.html
+  - _pages/portfolio.html
+  - _pages/publications.html
+  - _pages/tag-archive.html
+  - _pages/talkmap.html
+  - _pages/talks.html
+  - _pages/teaching.html
+  - _pages/year-archive.html
   - "*.sublime-project"
   - "*.sublime-workspace"
   - .asset-cache

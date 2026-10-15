@@ -1,0 +1,44 @@
+[
+  {
+    "venue": "Nature",
+    "status": "Under review · 2026",
+    "title": "NeuroCogMap Reveals Cognitive Organization of Large Language Models",
+    "authors": "Zhongxiang Sun<sup>*</sup>, Haolang Lu<sup>*</sup>, <strong>Qiang Ma</strong>, Qi Li, Qipeng Wang, Liang Pang, Chenyu Liu, Qiankun Li, Hao Sun, Kun Wang, Yi Zeng, Jun Xu, Guoqi Li, Ji-Rong Wen.",
+    "url": "https://arxiv.org/abs/2607.00397",
+    "link_label": "arXiv"
+  },
+  {
+    "venue": "MICCAI",
+    "status": "2026",
+    "title": "Diagnostic Evidence-Based Prototype Learning via Dirichlet Process for Multimodal Bone Tumor Subtyping",
+    "authors": "Feng Wu, Ruiling She, Ruiyang Zhang, Liang Peng, <strong>Qiang Ma</strong>, Yinghua Zhao, Lequan Yu.",
+    "url": "https://doi.org/10.1007/978-3-032-38091-3_20",
+    "link_label": "Paper"
+  },
+  {
+    "venue": "IEEE BIBM",
+    "status": "2025",
+    "title": "Interpretable Multi-View Fusion Network for Alzheimer's Disease Diagnosis with Large-scale Pre-trained Vision-Language Model",
+    "authors": "<strong>Qiang Ma</strong>, Jinghao Xu, Tengfei Li, Xin Yuan, Xiaofeng Zhu, Xiaoshuang Shi.",
+    "url": "https://doi.org/10.1109/BIBM66473.2025.11357019",
+    "link_label": "Paper"
+  },
+  {
+    "venue": "Information Fusion",
+    "status": "Under review",
+    "title": "Robust Multimodal Fusion via Epistemic Uncertainty Quantification for Cross-Center Medical Prediction",
+    "authors": "<strong>Qiang Ma</strong>, Ziyuan Qin, He Lyu, Junren Wang, Huan Song, Xiaoshuang Shi."
+  },
+  {
+    "venue": "Manuscript",
+    "status": "Under review",
+    "title": "Shapley-Inspired Causal Credit Assignment for Reinforcement Learning in Efficient Reasoning",
+    "authors": "Ziyuan Qin<sup>*</sup>, <strong>Qiang Ma</strong><sup>*</sup>, Haoyu Wang, Huahui Yi, Lequan Yu."
+  },
+  {
+    "venue": "Manuscript",
+    "status": "Under review",
+    "title": "PRISM: Optimizing 3D Medical VLLMs for Classification via Spatio-Anatomical Evidence Purification",
+    "authors": "<strong>Qiang Ma</strong>, Feng Wu, Huahui Yi, Ruiyang Zhang, Liang Peng, Shengkun Peng, Xiaoshuang Shi, Lequan Yu."
+  }
+]
