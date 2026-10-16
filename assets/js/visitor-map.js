@@ -65,7 +65,6 @@
     total.textContent=`90D / ${count.toLocaleString('en-US')} ${count===1?'visit':'visits'}`;
     total.title='Visits by network address; repeat activity within 30 minutes counts once (UTC day boundary resets)';
     total.hidden=false;
-    section.querySelector('[data-visitor-legend]').hidden=false;
     const countries=Array.isArray(summary.countries)?summary.countries.filter(p=>label(p.country)&&Number.isSafeInteger(p.count)&&p.count>0):[];
     defaultInsight=countries.length?`Top origins · ${countries.slice(0,3).map(p=>`${label(p.country)} ${p.count}`).join(' / ')}`:'Hover or tap a hotspot to explore';
     insight.textContent=defaultInsight;insight.hidden=false;
