@@ -73,13 +73,14 @@ redirect_from:
   </div>
 </div>
 
-<section class="visitor-section" aria-labelledby="visitor-title" data-visitor-map>
+<section class="visitor-section" aria-labelledby="visitor-title" data-visitor-map data-visitor-api="https://hkumedai.com/visitor-trace">
   <div class="visitor-heading">
-    <div><p class="visitor-label">NETWORK / GEOLOCATION</p><h2 id="visitor-title">Visitor trace</h2></div>
+    <h2 id="visitor-title">Visitor trace</h2>
     <span class="visitor-status" data-visitor-status>Awaiting signal</span>
   </div>
   <div class="visitor-display">
     <img class="visitor-world" src="{{ '/images/visitor-world.svg' | relative_url }}" alt="" width="960" height="432" loading="lazy">
+    <div class="visitor-history" data-visitor-history aria-hidden="true"></div>
     <span class="visitor-marker" data-visitor-marker role="img" aria-label="Visitor location" hidden>
       <span class="visitor-reticle" aria-hidden="true"></span>
       <span class="visitor-core" aria-hidden="true"></span>
@@ -90,7 +91,7 @@ redirect_from:
   <dl class="visitor-caption" aria-live="polite">
     <div class="visitor-detail"><dt>Visitor IP</dt><dd data-visitor-ip>—</dd></div>
     <div class="visitor-detail"><dt>Location</dt><dd data-visitor-location>Awaiting signal</dd></div>
-    <div class="visitor-detail visitor-source"><dt>Data source</dt><dd data-visitor-caption>IP geolocation</dd></div>
   </dl>
+  <p class="visitor-total" data-visitor-total hidden></p>
   <noscript><p class="visitor-notice">Enable JavaScript to display your visitor trace.</p></noscript>
 </section>
